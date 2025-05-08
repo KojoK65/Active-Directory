@@ -1,4 +1,4 @@
-# 🛠️ Active Directory PowerShell Automation Lab
+# 🛠️ Active Directory Lab
 
 This lab demonstrates how PowerShell can be used to automate Active Directory user provisioning tasks. It includes the creation of a single user, importing multiple users from a CSV file, and verifying the results within Active Directory Users & Computers (ADUC).
 
@@ -21,7 +21,7 @@ Showcase how to automate user account creation and management in Active Director
 
 ## 🧪 Step 1: Create a Single User Manually Using PowerShell
 
-We created a user account named `ron` with specific attributes, set a password, and enabled the account.
+Created a user account named `ron` with specific attributes, set a password, and enabled the account.
 
 ### 🔹 Script Used:
 ```powershell
@@ -43,7 +43,7 @@ Enable-ADAccount ron
 
 # 🧪 Step 2: Bulk Import Users into Active Directory from CSV
 
-We used a CSV file to bulk create multiple user accounts with attributes like name, department, title, and email. Each account is set to be **enabled** and required to **change the password on next login**.
+Used a CSV file to bulk create multiple user accounts with attributes like name, department, title, and email. Each account is set to be **enabled** and required to **change the password on next login**.
 
 ---
 
