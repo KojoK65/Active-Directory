@@ -41,7 +41,7 @@ Enable-ADAccount ron
 ## Creating the user ron in PowerShell
 <img width="1280" alt="ss#1" src="https://github.com/user-attachments/assets/e8d8042b-5843-455f-a4ee-9599666c3dd1" />
 
-# 🧪 Step 2: Bulk Import Users into Active Directory from CSV
+## 🧪 Step 2: Bulk Import Users into Active Directory from CSV
 
 Used a CSV file to bulk create multiple user accounts with attributes like name, department, title, and email. Each account is set to be **enabled** and required to **change the password on next login**.
 
@@ -90,12 +90,3 @@ Import-Csv ".\users.csv" |
 - ✅ Confirmed creation and status of user accounts in **Active Directory Users and Computers (ADUC)**  
 - ✅ Applied real-world parameters like titles, departments, and email addresses  
 - ✅ All accounts enabled and set to prompt for password change at next login  
-
-## 🚀 Summary
-
-This lab demonstrates how to use PowerShell to automate user account management in an Active Directory environment. It covers the creation of individual users with specified attributes, setting and securing passwords, enabling accounts, and bulk provisioning users from a CSV file.
-
-Each task mirrors typical administrative actions in a Windows domain, emphasizing **accuracy** and **repeatability** through scripting. The use of both manual and CSV-driven workflows shows how to manage identities efficiently at scale. Final verification using **Active Directory Users & Computers (ADUC)** confirms successful execution and account configuration.
-
-This lab provides a practical baseline for scripting directory tasks and building repeatable processes in domain management.
-
